@@ -73,7 +73,7 @@ export const DraggableComponent = ({ children }) => {
 ### Smoothing animations between points
 To smooth animation or add easing to your drag detector's callbacks you may choose to `lerp` between the current and next states of your drag. To accomplish this you can wrap your callback logic in `requestAnimationFrame` and apply [Easing Functions](https://easings.net).
 
-The event passed to your callback contains accumulated distances, current positions, as well as deltas for drags on the X/Y axis - which you can use to create more fine-grained animations
+The event passed to your callback contains accumulated distances, current positions, as well as deltas which you can use to create more fine-grained animations:
 
 ```typscript
 interface DragEvent { 
