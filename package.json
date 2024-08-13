@@ -12,7 +12,11 @@
     "dist",
     "src"
   ],
-  "keywords": [],
+  "keywords": [
+    "drag",
+    "swipe",
+    "touch"
+  ],
   "author": "Alex Figliolia",
   "license": "MIT",
   "dependencies": {
