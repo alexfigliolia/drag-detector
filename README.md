@@ -19,8 +19,8 @@ import { DragDetector } from "@figliolia/drag-detector";
 const node = document.getElementById("myElement");
 
 const detector = new DragDetector({
-  xThreshold: Infinity, // Max distance from the left of the target node to detect drag movements - by default the entire xAxis is draggable
-  yThreshold: Infinity, // Max distance from the top of the target node to detect drag movements - by default the entire xAxis is draggable
+  xThreshold: Infinity, // Max distance from the left of the target node to detect drag movements - by default the entire X Axis is draggable
+  yThreshold: Infinity, // Max distance from the top of the target node to detect drag movements - by default the entire Y Axis is draggable
   callback: ({ 
     x, // pointer X
     y, // pointer Y
