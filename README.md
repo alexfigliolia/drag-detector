@@ -1,7 +1,7 @@
 # Drag Detector
 Mouse and Touch driven drag detection for DOM elements. This package is great for driving swipe, drag, and movement animations driven by the end-user's pointer.
 
-![Demo](media/drag-detector.gif "Demo")
+<video title="Mobile Demo" src="https://github.com/user-attachments/assets/282a6ad0-103d-43a8-9ecb-7ae80eb9e941" height="auto" width="auto"></video>
 
 ## Installation
 ```bash
