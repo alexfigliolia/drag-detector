@@ -1,6 +1,6 @@
 {
   "name": "@figliolia/drag-detector",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Mouse and Touch driven drag detection for DOM elements",
   "main": "dist/cjs/index.js",
   "scripts": {
@@ -26,10 +26,10 @@
     "url": "git+https://github.com/alexfigliolia/drag-detector.git"
   },
   "dependencies": {
-    "@figliolia/react-hooks": "^1.2.0"
+    "@figliolia/react-hooks": "^1.2.4"
   },
   "peerDependencies": {
-    "@figliolia/react-hooks": "^1.2.0",
+    "@figliolia/react-hooks": "^1.2.4",
     "react": "^18.3.1"
   },
   "devDependencies": {
