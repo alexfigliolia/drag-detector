@@ -1,6 +1,6 @@
 {
   "name": "@figliolia/drag-detector",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Mouse and Touch driven drag detection for DOM elements",
   "main": "dist/cjs/index.js",
   "scripts": {

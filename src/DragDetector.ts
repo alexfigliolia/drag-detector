@@ -170,10 +170,10 @@ export class DragDetector<T extends HTMLElement> {
   }
 
   private listen() {
-    document.addEventListener("mousemove", this.onMouseMove);
-    document.addEventListener("mouseup", this.onMouseUp);
-    document.addEventListener("touchmove", this.onMouseMove);
-    document.addEventListener("touchend", this.onMouseUp);
+    document.addEventListener("mousemove", this.onMouseMove, { passive: true });
+    document.addEventListener("mouseup", this.onMouseUp, { passive: true });
+    document.addEventListener("touchmove", this.onMouseMove, { passive: true });
+    document.addEventListener("touchend", this.onMouseUp, { passive: true });
   }
 
   private static mergeDefaultOptions<T extends HTMLElement>(
